@@ -1,0 +1,113 @@
+
+        h1{
+            color: blueviolet;
+            background: pink;
+            text-align: center;
+        }
+        h2{
+            color:pink;
+        }
+  
+    ul{
+        color: green;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #1a1a1a;
+        color: #eaeaea;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        text-align: center;
+        margin: 20px 0;
+      }
+      
+      h1 {
+        font-size: 2em;
+        color: #ff4081;
+      }
+      
+      .flipbook-container {
+        margin: auto;
+        position: relative;
+        width: 800px; /* Width of the flipbook */
+        height: 600px; /* Height of the flipbook */
+        background-color: #222; /* Background of the container */
+      }
+      
+      .page {
+        background: #333;
+        text-align: center;
+        padding: 40px;
+        border: 1px solid #444;
+        width: 100%; /* Full width of the container */
+        height: 100%; /* Full height of the container */
+      }
+      
+      .page h2 {
+        color: #ff4081;
+      }
+      
+      .page p {
+        color: #c3c3c3;
+      }
+      body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+      }
+      
+      header {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      header h1 {
+        font-size: 2em;
+        color: #333;
+      }
+      
+      .flipbook-container {
+        width: 800px;
+        height: 500px;
+        margin: 40px auto;
+        position: relative;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
+      
+      .page {
+        width: 400px;
+        height: 500px;
+        position: absolute;
+        overflow: hidden;
+        border: 1px solid #ddd;
+        background: #fff;
+      }
+      
+      .page-content {
+        padding: 40px;
+      }
+      
+      .page h2 {
+        margin-top: 0;
+        color: #333;
+      }
+      
+      .page p {
+        color: #666;
+        line-height: 1.5em;
+      }
+      
+      .page:nth-child(2n) {
+        left: 400px;
+      }
+      
+      .page:nth-child(2n+1) {
+        left: 0;
+      }
+      
